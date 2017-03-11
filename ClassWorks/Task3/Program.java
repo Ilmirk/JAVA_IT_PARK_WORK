@@ -1,25 +1,33 @@
-class Program{
-	public static void fun(int x[]){
-		int temp=0;
-		for (int i=x.length;i>0;i--){
-			for (int j=0;j<x.length-1;j++){
-				if(x[j]>x[j+1]){
-					temp=x[j];
-					x[j]=x[j+1];
-					x[j+1]=temp;
+import java.util.Random;
+class Program {
+	public static void main(String[] args) {
+		int ages[] = new int[1000];
+		Random random = new Random();
 
-				}
-			}
+		for(int i = 0; i < ages.length; i++) {
+			ages[i] = random.nextInt(120);
+		}
+
+/*
+		for(int i = 0; i < 100; i++) {
+			System.out.println(ages[i]);
+		}
+*/
+		// вывести на экран количество людей, с возрастами от 0 до 120
+		
+		int numAges[] = new int[120];
+
+		for(int i = 0; i < 120; i++) {
+			numAges[i] = 0;
+		}
+
+		for(int i = 0; i < 1000; i++) {
+			numAges[ages[i]]++;
+		}
+
+		for(int i = 0; i < 120; i++) {
+			System.out.println(i + " year = " + numAges[i]);
 		}
 
 	}
-
-public static void main(String[] args){
-	int b[]={9,8,7,6,5,6,3,2};
-	fun(b);
-	for (int i=0;i<b.length;i++){
-		System.out.println(b[i] + " ");
-	}
 }
-
-	}
