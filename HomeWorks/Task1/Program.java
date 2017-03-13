@@ -1,3 +1,5 @@
+//Посчитать произведение простых чисел в последовательности ( пока не -1)
+
 import java.util.Scanner;
 class Program {
     public static void main(String[] args) {

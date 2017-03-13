@@ -1,3 +1,5 @@
+Посчитать сумму чисел, порядок вхождения которых - четное число
+
 import java.util.Scanner;
 
 class Program {

@@ -1,4 +1,4 @@
-import java.util.Scanner;
+//Сумма элементов массива
 
 import java.util.Scanner;
 
