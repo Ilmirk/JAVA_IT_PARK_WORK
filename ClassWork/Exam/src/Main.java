@@ -8,6 +8,7 @@ public class Main {
         Rectangle rectangle = new Rectangle();
 
         Figure[] f = new Figure[3];
+        System.out.println("Hello");
 
     }
 }
