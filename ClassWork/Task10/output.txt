@@ -1,0 +1,2 @@
+I'm Triangle a = 4, b = 5, c = 6.
+I'm Rectangle a = 1, b = 2.

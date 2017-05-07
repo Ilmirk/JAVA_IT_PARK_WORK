@@ -1,7 +1,19 @@
-/**
- * Created by Student1 on 08.04.2017.
- */
-    public class Triangle implements Figure {
+public class Triangle extends Forms implements Figure {
+    private int a, b, c;
 
-        public int x, y, z;
+    public Triangle(int a, int b, int c) {
+        this.a = a;
+        this.b = b;
+        this.c = c;
     }
+
+    public double area() {
+        double p = (a + b + c) / 2;
+        return Math.sqrt(p * (p - a) * (p - b) * (p - c));
+    }
+
+    public int perimetr() {
+        return a + b + c;
+    }
+
+}

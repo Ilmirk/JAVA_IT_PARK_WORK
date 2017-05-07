@@ -1,7 +1,17 @@
-/**
- * Created by Student1 on 08.04.2017.
- */
-public class Rectangle implements Figure {
+public class Rectangle extends Forms implements Figure{
+    private int a, b;
 
-    public int x, y, z, c;
+    public Rectangle(int a, int b) {
+        this.a = a;
+        this.b = b;
+    }
+
+    public double area() {
+        return a * b;
+    }
+
+    public int perimetr() {
+        return 2 * (a + b);
+    }
+
 }
