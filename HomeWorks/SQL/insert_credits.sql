@@ -1,0 +1,15 @@
+﻿INSERT INTO credits(number, owner_id) VALUES('№1234', 1);
+INSERT INTO credits(number, owner_id) VALUES('№2345', 1);
+INSERT INTO credits(number, owner_id) VALUES('№3456', 2);
+INSERT INTO credits(number, owner_id) VALUES('№4567', 2);
+INSERT INTO credits(number, owner_id) VALUES('№5678', 3);
+INSERT INTO credits(number, owner_id) VALUES('№6789', 4);
+INSERT INTO credits(number, owner_id) VALUES('№9876', 5);
+INSERT INTO credits(number, owner_id) VALUES('№4578', 6);
+INSERT INTO credits(number, owner_id) VALUES('№1245', 7);
+INSERT INTO credits(number, owner_id) VALUES('№7412', 7);
+INSERT INTO credits(number, owner_id) VALUES('№4598', 7);
+INSERT INTO credits(number, owner_id) VALUES('№6821', 8);
+INSERT INTO credits(number, owner_id) VALUES('№9524', 8);
+INSERT INTO credits(number, owner_id) VALUES('№3971', 9);
+INSERT INTO credits(number, owner_id) VALUES('№1299', 10);
