@@ -3,7 +3,7 @@
   <component name="FacetManager">
     <facet type="Spring" name="Spring">
       <configuration>
-        <fileset id="fileset" name="Spring Application Context" removed="false">
+        <fileset id="fileset" name="Spring Application Context" removed="false" profiles="dev,test-db">
           <file>file://$MODULE_DIR$/src/main/resources/ru.itpark/context.xml</file>
         </fileset>
       </configuration>
