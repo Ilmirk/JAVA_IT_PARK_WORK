@@ -19,24 +19,21 @@ public class UsersDaoJdbcImpl implements UsersDao {
     private NamedParameterJdbcTemplate template;
 
     //language=SQL
-    private final String SQL_INSERT_USER =
-            "INSERT INTO clients(name, phone) VALUES(:name, :phone)";
+    private final String SQL_INSERT_USER = "INSERT INTO clients(name, phone) VALUES(:name, :phone)";
 
     //language=SQL
-    private final String SQL_SELECT_USER_BY_ID =
-            "SELECT * FROM clients WHERE id = :id";
+    private final String SQL_SELECT_USER_BY_ID = "SELECT * FROM clients WHERE id = :id";
 
     //language=SQL
-    private final String SQL_DELETE_USER_BY_ID =
-            "DELETE FROM clients WHERE id = :id";
+    private final String SQL_DELETE_USER_BY_ID = "DELETE FROM clients WHERE id = :id";
 
     //language=SQL
-    private final String SQL_USER_UPDATE_BY_ID =
-            "UPDATE clients SET name = :phone, phone = :phone WHERE id = :id";
+    private final String SQL_SELECT_ALL = "SELECT * FROM clients";
 
     //language=SQL
-    private final String SQL_SELECT_ALL =
-            "SELECT * FROM clients";
+    private final String SQL_USER_UPDATE_BY_ID = "UPDATE clients SET name = :phone, phone = :phone WHERE id = :id";
+
+
 
     public UsersDaoJdbcImpl(DataSource dataSource) {
         this.template = new NamedParameterJdbcTemplate(dataSource);

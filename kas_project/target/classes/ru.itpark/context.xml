@@ -20,7 +20,7 @@
         <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
             <constructor-arg name="username" value="postgres"/>
             <constructor-arg name="password" value="Zaq12wsx"/>
-            <constructor-arg name="url" value="jdbc:postgresql://localhost:5432/kas_project"/>
+            <constructor-arg name="url" value="jdbc:postgresql://localhost:5432/kashapov_bd"/>
         </bean>
 
     </beans>
@@ -35,6 +35,7 @@
             <jdbc:script location="classpath:ru.itpark.sql/create_table_clients.sql"/>
             <jdbc:script location="classpath:ru.itpark.sql/create_table_credits.sql"/>
         </jdbc:embedded-database>
+
 
     </beans>
 
