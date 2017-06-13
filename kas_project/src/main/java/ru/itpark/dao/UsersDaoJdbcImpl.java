@@ -39,11 +39,12 @@ public class UsersDaoJdbcImpl implements UsersDao {
         this.template = new NamedParameterJdbcTemplate(dataSource);
     }
 
-    public int save(User model) {
+    public int save(User number) {
         // собрали значения именнованных параметров
         MapSqlParameterSource params = new MapSqlParameterSource();
-        params.addValue("name", model.getName());
-        params.addValue("phone", model.getPhone());
+       // params.addValue("id", number.getOwner_id());
+        params.addValue("name", number.getName());
+        params.addValue("phone", number.getPhone());
 
         String interestingKeys[] = {"id"};
 
@@ -72,11 +73,11 @@ public class UsersDaoJdbcImpl implements UsersDao {
         return template.queryForObject(SQL_SELECT_USER_BY_ID, params, userRowMapper);
     }
 
-    public void update(User model) {
+    public void update(User number) {
         Map<String, Object> params = new HashMap<String, Object>();
-        params.put("id", model.getId());
-        params.put("name", model.getName());
-        params.put("phone", model.getPhone());
+        params.put("id", number.getId());
+        params.put("name", number.getName());
+        params.put("phone", number.getPhone());
         template.update(SQL_USER_UPDATE_BY_ID, params);
     }
 
@@ -87,6 +88,14 @@ public class UsersDaoJdbcImpl implements UsersDao {
     }
 
     public List<User> findAll() {
+        return null;
+    }
+
+
+    public List<User> findAll(int owner_id) {
+        Map<String, Object> params = new HashMap<String, Object>();
+        params.put("owner_id", owner_id);
         return template.query(SQL_SELECT_ALL, userRowMapper);
+
     }
 }

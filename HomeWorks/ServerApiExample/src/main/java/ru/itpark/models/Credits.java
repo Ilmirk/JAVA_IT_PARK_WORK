@@ -10,13 +10,13 @@ public class Credits {
     private int id;
 
     @Column
-    private String model;
+    private String number;
 
     @Column(name = "owner_id")
     private Integer ownerId;
 
-    public Credits(String model, Integer ownerId) {
-        this.model = model;
+    public Credits(String number, Integer ownerId) {
+        this.number = number;
         this.ownerId = ownerId;
     }
 
@@ -31,12 +31,12 @@ public class Credits {
         this.id = id;
     }
 
-    public String getModel() {
-        return model;
+    public String getNumber() {
+        return number;
     }
 
-    public void setModel(String model) {
-        this.model = model;
+    public void setNumber(String number) {
+        this.number = number;
     }
 
     public Integer getOwnerId() {

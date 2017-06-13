@@ -22,35 +22,17 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CreditsDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/dao/CreditsDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreditsDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/dao/CreditsDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="UsersDaoJdbcImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/dao/UsersDaoJdbcImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="124" column="35" lean-forward="true" selection-start-line="124" selection-start-column="35" selection-end-line="124" selection-end-column="35" />
+            <state relative-caret-position="1734">
+              <caret line="124" column="35" lean-forward="false" selection-start-line="124" selection-start-column="35" selection-end-line="124" selection-end-column="35" />
               <folding>
-                <element signature="e#2925#2941#0" expanded="true" />
-                <element signature="e#3153#3169#0" expanded="true" />
-                <element signature="e#3450#3466#0" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#1763#1764#0" expanded="false" />
+                <element signature="e#1837#1838#0" expanded="false" />
+                <element signature="e#3595#3596#0" expanded="false" />
+                <element signature="e#3663#3664#0" expanded="false" />
                 <marker date="1497290207610" expanded="true" signature="915:969" ph="INSERT INTO credits... " />
                 <marker date="1497290207610" expanded="true" signature="1054:1090" ph="SELECT * FRO... credits" />
                 <marker date="1497290207610" expanded="true" signature="1168:1189" ph="SELECT * FRO... credits" />
@@ -62,11 +44,48 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server-api-bank.iml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="server-api-bank.iml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server-api-bank.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-519">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="442">
+              <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Credits.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/models/Credits.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+              <folding>
+                <element signature="e#592#593#0" expanded="true" />
+                <element signature="e#621#622#0" expanded="true" />
+                <element signature="e#665#666#0" expanded="true" />
+                <element signature="e#701#702#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/config/AppConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="13">
+              <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/models/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-153">
+              <caret line="34" column="14" lean-forward="false" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -82,11 +101,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="AppInit.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/config/AppInit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FreemarkerController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/controllers/FreemarkerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="users.ftl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/ftl/users.ftl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+              <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -97,46 +136,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RestUsersController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/controllers/RestUsersController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#522#523#0" expanded="false" />
+                <element signature="e#575#576#0" expanded="false" />
+                <element signature="e#639#640#0" expanded="false" />
+                <element signature="e#698#699#0" expanded="false" />
+                <element signature="e#776#777#0" expanded="false" />
+                <element signature="e#838#839#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppInit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/config/AppInit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="e#276#277#0" expanded="false" />
-                <element signature="e#327#328#0" expanded="false" />
-                <element signature="e#395#396#0" expanded="false" />
-                <element signature="e#446#447#0" expanded="false" />
-                <element signature="e#507#508#0" expanded="false" />
-                <element signature="e#547#548#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseCrudDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/dao/BaseCrudDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -152,17 +160,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/ru/itpark/dao/UsersDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/models/Credits.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itpark/models/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itpark/services/UsersService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itpark/services/UsersServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/controllers/FreemarkerController.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itpark/dao/CreditsDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itpark/dao/CreditsDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itpark/config/AppConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itpark/controllers/RestUsersController.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itpark/dao/UsersDaoJdbcImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/ftl/users.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/models/Credits.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/controllers/FreemarkerController.java" />
       </list>
     </option>
   </component>
@@ -171,6 +179,13 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -222,8 +237,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -474,12 +487,14 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaFxVkClient/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
   </component>
   <component name="RecentsManager">
@@ -922,11 +937,12 @@
       <updated>1497286744459</updated>
       <workItem from="1497286748181" duration="4339000" />
       <workItem from="1497291226892" duration="829000" />
+      <workItem from="1497299512050" duration="1065000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5168000" />
+    <option name="totallyTimeSpent" value="6233000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -950,11 +966,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20347957" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2065053" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -979,6 +995,126 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/dao/CreditsDao.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/dao/CreditsDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#806#807#0" expanded="false" />
+            <element signature="e#830#831#0" expanded="false" />
+            <element signature="e#879#880#0" expanded="false" />
+            <element signature="e#906#907#0" expanded="false" />
+            <element signature="e#1076#1077#0" expanded="false" />
+            <element signature="e#1103#1104#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/dao/UsersDaoJdbcImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1734">
+          <caret line="124" column="35" lean-forward="true" selection-start-line="124" selection-start-column="35" selection-end-line="124" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1763#1764#0" expanded="false" />
+            <element signature="e#1837#1838#0" expanded="false" />
+            <element signature="e#3595#3596#0" expanded="false" />
+            <element signature="e#3663#3664#0" expanded="false" />
+            <marker date="1497290207610" expanded="true" signature="915:969" ph="INSERT INTO credits... " />
+            <marker date="1497290207610" expanded="true" signature="1054:1090" ph="SELECT * FRO... credits" />
+            <marker date="1497290207610" expanded="true" signature="1168:1189" ph="SELECT * FRO... credits" />
+            <marker date="1497290207610" expanded="true" signature="1274:1308" ph="DELETE FROM " />
+            <marker date="1497290207610" expanded="true" signature="1393:1455" ph="UPDATE credi... " />
+            <marker date="1497290207610" expanded="true" signature="1542:1584" ph="SELECT * FRO... credits" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/list.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/ftl/users.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/services/UsersServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#522#523#0" expanded="false" />
+            <element signature="e#575#576#0" expanded="false" />
+            <element signature="e#639#640#0" expanded="false" />
+            <element signature="e#698#699#0" expanded="false" />
+            <element signature="e#776#777#0" expanded="false" />
+            <element signature="e#838#839#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/controllers/RestUsersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="e#468#469#0" expanded="false" />
+            <element signature="e#521#522#0" expanded="false" />
+            <element signature="e#671#672#0" expanded="false" />
+            <element signature="e#728#729#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/config/AppInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#276#277#0" expanded="false" />
+            <element signature="e#327#328#0" expanded="false" />
+            <element signature="e#395#396#0" expanded="false" />
+            <element signature="e#446#447#0" expanded="false" />
+            <element signature="e#507#508#0" expanded="false" />
+            <element signature="e#547#548#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/dao/BaseCrudDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-api-bank.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/dao/CreditsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
@@ -989,7 +1125,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
           <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#806#807#0" expanded="false" />
+            <element signature="e#830#831#0" expanded="false" />
+            <element signature="e#879#880#0" expanded="false" />
+            <element signature="e#906#907#0" expanded="false" />
+            <element signature="e#1076#1077#0" expanded="false" />
+            <element signature="e#1103#1104#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1017,7 +1161,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#522#523#0" expanded="false" />
+            <element signature="e#575#576#0" expanded="false" />
+            <element signature="e#639#640#0" expanded="false" />
+            <element signature="e#698#699#0" expanded="false" />
+            <element signature="e#776#777#0" expanded="false" />
+            <element signature="e#838#839#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1036,7 +1188,10 @@
         <state relative-caret-position="357">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#468#469#0" expanded="false" />
+            <element signature="e#521#522#0" expanded="false" />
+            <element signature="e#671#672#0" expanded="false" />
+            <element signature="e#728#729#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1054,9 +1209,11 @@
         <state relative-caret-position="2057">
           <caret line="121" column="13" lean-forward="false" selection-start-line="121" selection-start-column="13" selection-end-line="121" selection-end-column="13" />
           <folding>
-            <element signature="e#2925#2941#0" expanded="true" />
-            <element signature="e#3153#3169#0" expanded="true" />
-            <element signature="e#3450#3466#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1763#1764#0" expanded="false" />
+            <element signature="e#1837#1838#0" expanded="false" />
+            <element signature="e#3595#3596#0" expanded="false" />
+            <element signature="e#3663#3664#0" expanded="false" />
             <marker date="1497290207610" expanded="true" signature="915:969" ph="INSERT INTO credits... " />
             <marker date="1497290207610" expanded="true" signature="1054:1090" ph="SELECT * FRO... credits" />
             <marker date="1497290207610" expanded="true" signature="1168:1189" ph="SELECT * FRO... credits" />
@@ -1075,37 +1232,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/models/Credits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/models/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-259">
-          <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/services/UsersService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/controllers/FreemarkerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1127,44 +1258,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/config/AppConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/config/AppInit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="e#276#277#0" expanded="false" />
-            <element signature="e#327#328#0" expanded="false" />
-            <element signature="e#395#396#0" expanded="false" />
-            <element signature="e#446#447#0" expanded="false" />
-            <element signature="e#507#508#0" expanded="false" />
-            <element signature="e#547#548#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/controllers/RestUsersController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="357">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#468#469#0" expanded="false" />
+            <element signature="e#521#522#0" expanded="false" />
+            <element signature="e#671#672#0" expanded="false" />
+            <element signature="e#728#729#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/dao/BaseCrudDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="136">
           <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding />
         </state>
@@ -1180,9 +1289,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/dao/CreditsDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
+        <state relative-caret-position="561">
           <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#806#807#0" expanded="false" />
+            <element signature="e#830#831#0" expanded="false" />
+            <element signature="e#879#880#0" expanded="false" />
+            <element signature="e#906#907#0" expanded="false" />
+            <element signature="e#1076#1077#0" expanded="false" />
+            <element signature="e#1103#1104#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1197,7 +1314,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/ftl/users.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -1206,18 +1323,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#522#523#0" expanded="false" />
+            <element signature="e#575#576#0" expanded="false" />
+            <element signature="e#639#640#0" expanded="false" />
+            <element signature="e#698#699#0" expanded="false" />
+            <element signature="e#776#777#0" expanded="false" />
+            <element signature="e#838#839#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/dao/UsersDaoJdbcImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="124" column="35" lean-forward="true" selection-start-line="124" selection-start-column="35" selection-end-line="124" selection-end-column="35" />
+        <state relative-caret-position="1734">
+          <caret line="124" column="35" lean-forward="false" selection-start-line="124" selection-start-column="35" selection-end-line="124" selection-end-column="35" />
           <folding>
-            <element signature="e#2925#2941#0" expanded="true" />
-            <element signature="e#3153#3169#0" expanded="true" />
-            <element signature="e#3450#3466#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1763#1764#0" expanded="false" />
+            <element signature="e#1837#1838#0" expanded="false" />
+            <element signature="e#3595#3596#0" expanded="false" />
+            <element signature="e#3663#3664#0" expanded="false" />
             <marker date="1497290207610" expanded="true" signature="915:969" ph="INSERT INTO credits... " />
             <marker date="1497290207610" expanded="true" signature="1054:1090" ph="SELECT * FRO... credits" />
             <marker date="1497290207610" expanded="true" signature="1168:1189" ph="SELECT * FRO... credits" />
@@ -1230,8 +1357,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server-api-bank.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-519">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="442">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/models/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="34" column="14" lean-forward="false" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/models/Credits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/config/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/config/AppInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/controllers/FreemarkerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
           <folding />
         </state>
       </provider>
