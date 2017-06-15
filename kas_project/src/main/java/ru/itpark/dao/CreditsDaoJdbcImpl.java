@@ -64,12 +64,10 @@ public class CreditsDaoJdbcImpl implements CreditsDao {
         Map<String, Object> params = new HashMap<String, Object>();
         params.put("id", number.getOwnerId());
         params.put("number", number.getNumber());
-
         template.update(SQL_USER_UPDATE_BY_CREDITS, params);
     }
 
     public void delete(int id) {
-
         Map<String, Object> params = new HashMap<String, Object>();
         params.put("id", id);
         template.update(SQL_DELETE_CREDITS_BY_ID, params);

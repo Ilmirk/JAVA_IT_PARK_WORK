@@ -17,6 +17,14 @@
             <constructor-arg name="dataSource" ref="dataSource"/>
         </bean>
 
+        <bean id="creditsServiceDb" class="ru.itpark.service.CreditsServiceImpl">
+            <constructor-arg name="creditsDao" ref="creditsDaoDb"/>
+        </bean>
+        <bean id="creditsDaoDb" class="ru.itpark.dao.CreditsDaoJdbcImpl">
+            <constructor-arg name="dataSource" ref="dataSource"/>
+        </bean>
+
+
         <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
             <constructor-arg name="username" value="postgres"/>
             <constructor-arg name="password" value="Zaq12wsx"/>

@@ -1,8 +1,10 @@
 ru\itpark\models\Credits.class
 ru\itpark\dao\UsersDaoJdbcImpl$1.class
 ru\itpark\dao\UsersDaoJdbcImpl.class
+ru\itpark\service\CreditsService.class
 ru\itpark\dao\BaseCrudDao.class
 ru\itpark\service\UsersService.class
+ru\itpark\service\CreditsServiceImpl.class
 ru\itpark\Main.class
 ru\itpark\dao\CreditsDaoJdbcImpl$1.class
 ru\itpark\dao\CreditsDaoJdbcImpl.class

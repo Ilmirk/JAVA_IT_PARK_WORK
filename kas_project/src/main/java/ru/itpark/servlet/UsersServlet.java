@@ -52,8 +52,8 @@ public class UsersServlet extends HttpServlet {
             request.getRequestDispatcher("/jsp/users.jsp").forward(request, response);
         } else {
             String name = request.getParameter("name");
-            String mail = request.getParameter("mail");
-            User user = new User(name, mail);
+            String phone = request.getParameter("phone");
+            User user = new User(name, phone);
             usersService.register(user);
         }
     }
